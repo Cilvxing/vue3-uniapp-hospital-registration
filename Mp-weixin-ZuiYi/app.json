@@ -1,0 +1,76 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/mine/mine",
+    "pages/my-service/my-registration/index",
+    "pages/registered/registered",
+    "pages/doctor/index",
+    "pages/doctor/doctor-Homepage",
+    "pages/video/video",
+    "pages/my-service/phy-exam/index",
+    "pages/phy-exam/index",
+    "pages/phy-exam/Details",
+    "pages/graphics/index",
+    "pages/my-service/my-patient/my-patient",
+    "pages/my-service/my-patient/add-patient",
+    "pages/my-service/hpv-view/index",
+    "pages/hpv-vaccine/hpv-vaccine",
+    "pages/hpv-vaccine/hpv-buy",
+    "pages/login-page/index",
+    "pages/Speech recognition/Speech recognition"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/tab_1/首页-0.png",
+        "selectedIconPath": "static/tab_1/首页.png"
+      },
+      {
+        "pagePath": "pages/registered/registered",
+        "text": "挂号",
+        "iconPath": "static/tab_1/医疗_挂号-0.png",
+        "selectedIconPath": "static/tab_1/医疗_挂号.png"
+      },
+      {
+        "pagePath": "pages/video/video",
+        "text": "医师课堂",
+        "iconPath": "static/tab_1/视频播放-0.png",
+        "selectedIconPath": "static/tab_1/视频播放.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "static/tab_1/个人中心-0.png",
+        "selectedIconPath": "static/tab_1/个人中心.png"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "获取当前位置"
+    }
+  },
+  "requiredPrivateInfos": [
+    "startLocationUpdate",
+    "onLocationChange"
+  ],
+  "plugins":{
+    "WechatSI": {
+      "version":"0.3.5",
+      "provider":"wx069ba97219f66d99"
+    }
+  },
+  "usingComponents": {}
+}

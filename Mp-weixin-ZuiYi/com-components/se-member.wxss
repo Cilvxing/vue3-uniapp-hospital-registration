@@ -1,0 +1,41 @@
+
+
+/* 选择成员 */
+.popups-title{
+  font-size: 35rpx;
+  text-align: center;
+  font-weight: bold;
+  display: block;
+  padding: 20rpx 0;
+}
+.member-view{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20rpx;
+}
+.member-view image{
+  width: 80rpx;
+  height: 80rpx;
+}
+.member-view text:nth-child(2){
+  flex: 1;
+  padding: 0 40rpx;
+  font-weight: bold;
+}
+.member-view text:nth-child(3){
+  color: #0176ff;
+}
+.select-submit{
+  background-color: #0176ff;
+  color: #ffffff;
+  border-radius: 10rpx;
+  text-align: center;
+  padding: 20rpx 0;
+  margin: 50rpx 20rpx 68rpx 20rpx;
+}
+.popups{
+  height: 400rpx;
+  width:100%;
+  background-color: #ffffff;
+}

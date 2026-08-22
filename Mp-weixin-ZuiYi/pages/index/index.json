@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "遵义医科大学附属医院",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "sk-index": "../../Skeleton/SK-index",
+    "pro-mpt": "./components/prompt"
+  }
+}

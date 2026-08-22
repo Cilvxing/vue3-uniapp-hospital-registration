@@ -1,0 +1,15 @@
+<view class="fanhui">
+	<button class="videoBtn sendBtn" type="default"  bindtap="gotoONE">返回</button>
+</view>
+<form class="data-v-aa2b2b0a" bindsubmit="formSubmit">
+	<view class="videoWrap data-v-aa2b2b0a"><textarea class="videoCon data-v-aa2b2b0a" bindinput="conInput" placeholder="等待说话..." value="{{content}}"></textarea></view>
+	<view class="insert-button data-v-aa2b2b0a"><button formType="submit" class="videoBtn sendBtn data-v-aa2b2b0a" type="default">推荐科室</button></view>
+</form>
+<view class="data-v-aa2b2b0a">推荐的科室是：{{label_content}}</view>
+<view class="video-konw data-v-aa2b2b0a"><button type="primary" class="videoBtn {{recordState == true ? 'videoBtnBg':''}} data-v-aa2b2b0a" bindtouchstart="touchStart" bindtouchend="touchEnd"><text class="data-v-aa2b2b0a" wx:if="{{recordState == false}}">按住 说话</text><text class="data-v-aa2b2b0a" wx:else>松开 结束</text></button></view>
+<view class="send-btn data-v-aa2b2b0a"><button type="default" class="videoBtn sendBtn data-v-aa2b2b0a" bindtap="gotoRegist"> 去挂号 </button></view>
+<cover-view class="startYuyinImage data-v-aa2b2b0a" wx:if="{{recordState == true}}">
+	<cover-icon class="data-v-aa2b2b0a" u-i="aa2b2b0a-0" bind:__l="__l"></cover-icon>
+	<cover-image class="data-v-aa2b2b0a" src="https://7061-path-one-7g9wyeb1fb616373-1318944028.tcb.qcloud.la/yuyin.jpg"></cover-image>
+	<cover-view class="data-v-aa2b2b0a">开始语音</cover-view>
+</cover-view>

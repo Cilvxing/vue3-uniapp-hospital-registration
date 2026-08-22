@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "json-server": "json-server --watch dbgx.json",
+    
+    "json:server:remote":"json-server http://jsonplaceholder.typicode.com/db" 
+  },
+  "dependencies": {
+    "json-server": "^0.17.3"
+  }
+  
+}
